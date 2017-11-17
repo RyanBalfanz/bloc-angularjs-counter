@@ -3,4 +3,5 @@ angular
   .controller('CounterController', CounterController);
 
 function CounterController() {
+  this.number = 0;
 }
